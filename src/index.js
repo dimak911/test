@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const result = axios.get(
-  'http://api.mediastack.com/v1/news?access_key=755d8a8e2e53f396865281416825613b'
+  'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=7V2Mdku3K6jAwbEoNcKctzHC7q7RRQcQ'
 );
 result.then(res => {
   console.log(res.data);
